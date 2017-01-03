@@ -1,0 +1,2 @@
+# NPRSundayPuzzle-2017-01-01-
+FROM SUNDAY PUZZLE ON 2017-01-01: Take the four-letter men's names TODD, OMAR, DAVE and DREW. If you write them one under the other, they'll form a word square, spelling TODD, OMAR, DAVE and DREW reading down as well: TODD OMAR DAVE DREW  Can you construct a word square consisting of five five-letter men's names? Any such square using relatively familiar men's names will count. I have an answer using four relatively common names and one less familiar one.

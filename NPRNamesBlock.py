@@ -6,7 +6,7 @@ import pandas as pd
 #read the csv file 
 #Link to download national names: https://www.kaggle.com/kaggle/us-baby-names
 #Use the file path to your CSV
-df = pd.read_csv('/path/to/NationalNames.csv', names =['ID','Names','year','gender','count'])
+df = pd.read_csv('NationalNames.csv', names =['ID','Names','year','gender','count'])
 
 
 #print 'list of names: '
@@ -34,7 +34,8 @@ print df
 
 
 #after filtering it is small enough that you should be able to open it in excel
-#df.to_csv('5LetterMaleNamesCount50Years1890_2010.csv',index=False,header=False) #create a new csv with filtered data if you want to
+df.to_csv('filtered_names.csv',index=False,header=False) #create a new csv with filtered data if you want to
+exit('exited after exporting filtered csv')
 
 count = 0 #counts number of grids are found
 
